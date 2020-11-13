@@ -1,0 +1,56 @@
+/* default settings */
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  background-color: white;
+
+
+
+  &.no-scroll {
+      overflow: hidden;
+  }
+
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+// project
+.App {
+  background-color: lightblue;
+  border-radius: 6px;
+  max-width: 400px;
+  width: 100%;
+  margin: 50px auto 0;
+  padding: 15px;
+}
+                                                  

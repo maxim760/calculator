@@ -1,0 +1,35 @@
+.btnWrap {
+    display: flex;
+    width: 25%;
+    padding: 7px;
+}
+.btnCalc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4px;
+    font-size: 23px;
+    color:#333;
+    font-weight: 600;
+
+    background-color:#eee;
+    border: 2px solid rgba(blueviolet,0.8);
+    border-radius: 10px;
+    transition: border-color 0.2s linear, background-color 0.2s linear;
+    &:focus {
+        outline: 0;
+        border-color: blueviolet;
+        background-color: rgba(orange,0.7)
+    }
+    &:active {
+        background-color: pink;
+        outline: 0;
+    }
+}
+.btnCalc--empty {
+    pointer-events: none;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
